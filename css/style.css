@@ -11,23 +11,35 @@
   width: 100%;
   height: 100%;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1200px) {
   .navbar-brand img{
     width: 100%;
   }
 }
-@media screen and (min-width:320px) {
+@media screen and (max-width:320px) {
   .navbar-brand img{
-    width: 100%;
+    width: 50%;
     float: left;
   }
   .contact-with-color{
     width: 100%;
+    background-color: #ce9103;
+  }
+  .container-test{
+    width: 100%;
+    background-color: #ce9103;
     
+  }
+  .container-test h1{
+    width: 50%;
   }
   .header-bet{
     width: 100%;
-    background: linear-gradient(to right,#ce9103, #e5a015);
+    background-color: #ce9103;
+  }
+  .container-fluid{
+    width: 100%;
+    background-color: #ce9103;
   }
 }
 
